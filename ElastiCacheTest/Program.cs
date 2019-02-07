@@ -18,7 +18,7 @@ namespace ElastiCacheTest
             client.Store(StoreMode.Set, "key", "value");
 
             Console.WriteLine("Getting Value");
-            Console.WriteLine(client.Get("key"));
+            Console.WriteLine(client.Get("key") ?? "Failed to get key");
             Console.WriteLine("Got Value");
         }
     }
