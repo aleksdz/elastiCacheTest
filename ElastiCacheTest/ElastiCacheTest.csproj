@@ -9,5 +9,6 @@
     <PackageReference Include="AWSSDK.ElastiCache" Version="3.3.7.30" />
     <PackageReference Include="Amazon.ElastiCacheCluster" Version="1.0.1" />
     <PackageReference Include="EnyimMemcached" Version="2.12.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
   </ItemGroup>
 </Project>
