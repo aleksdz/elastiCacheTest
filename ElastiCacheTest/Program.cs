@@ -29,7 +29,7 @@ namespace ElastiCacheTest
         {
             var config = new ConfigurationOptions
             {
-                EndPoints = { { "rediscluster.jqauhs.clustercfg.euw1.cache.amazonaws.com", 6379 } }
+                EndPoints = { { "redisprimary.jqauhs.ng.0001.euw1.cache.amazonaws.com",  6379} }
             };
 
             var connection = ConnectionMultiplexer.Connect(config);
